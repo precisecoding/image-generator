@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circle Should generate a circle w/ the rest of user inputs 1`] = `
+"<svg version=\\"1.1\\" width=\\"300\\" height=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+        <circle cx=\\"150\\" cy=\\"100\\" r=\\"80\\" fill=\\"blue\\"/>
+        <text x=\\"150\\" y=\\"125\\" font-size=\\"60\\" text-anchor=\\"middle\\" fill=\\"black\\">abc</text></svg>"
+`;
+
+exports[`square Should generate a square w/ the rest of user inputs 1`] = `
+"<svg version=\\"1.1\\" width=\\"300\\" height=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+        <rect width=\\"300\\" height=\\"100\\" style=\\"fill:purple;\\"/>
+        <text x=\\"150\\" y=\\"65\\" font-size=\\"60\\" text-anchor=\\"middle\\" fill=\\"red\\">def</text></svg>"
+`;
+
+exports[`triangle Should generate a triangle w/ the rest of user inputs 1`] = `
+"<svg version=\\"1.1\\" width=\\"300\\" height=\\"200\\" xmlns=\\"http://www.w3.org/2000/svg\\">
+        <polygon points=\\"100,10 40,198 190,78 10,78 160,198\\"
+        style=\\"fill:pink;\\"/>
+        <text x=\\"105\\" y=\\"120\\" font-size=\\"40\\" text-anchor=\\"middle\\" fill=\\"blue\\">ghi</text></svg>"
+`;
